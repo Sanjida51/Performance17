@@ -1,0 +1,116 @@
+#inline{
+    background-color: red;
+    display: inline;
+    padding: 15px;
+    height: 150px;
+}
+#inline-block{
+    background-color: green;
+    display: inline-block;
+    padding: 15px;
+    height: 150px;
+}
+.Align{
+    width:50px ;
+    height: 150px;
+    border: 5px solid green;
+    margin: auto;
+}
+img{
+    display: block;
+    margin: auto;
+    height: 150px;
+    width: 250px;
+}
+.Align1{
+    width:50px ;
+    height: 150px;
+    padding: 0px 200px;
+    border: 5px solid green;
+    margin: auto;
+    text-align: center;
+}
+.Align2{
+    height: 15px;
+    widows: 50%;
+    position: relative;
+    border: 5px solid pink;
+}
+.sub-div{
+    height: 80px;
+    width: 150px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto; 
+}
+.d1>p{
+    color: blue;
+}
+.d1+p{
+    background-color: aqua;
+}
+.d2~p{
+    background-color: blueviolet;
+    color: bisque;
+}
+ .Align4{
+    width: 50%;
+    height: 150px;
+    border:2px solid green;
+    position: relative;
+
+  }
+.SUBDIV{
+    width: 100px;
+    height: 80px;
+    border:2px solid green;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin:auto;
+
+
+}
+a{
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: greenyellow;
+    padding: 20px;
+}
+a:link{
+    color: #320b4e;
+    opacity: 0.3;
+    
+}
+a:visited{
+    background-color: red;
+}
+a:hover{
+    opacity: 1;
+}
+a:active{
+    background-color: #000;
+}
+.text{
+    height: 400px;
+    width: 600px;
+    border: 2px solid blue;
+}
+div.text:hover{
+    border: 5px dotted red;
+}
+div.text2 p:first-child{
+    color: burlywood;
+    border: 3px dashed pink;
+}
+q:lang(no){
+    quotes: "@" "$";
+}
